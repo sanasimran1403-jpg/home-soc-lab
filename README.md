@@ -117,16 +117,20 @@ hydra -l root -P /usr/share/wordlists/rockyou.txt \ssh://192.168.95.3 -t 4 -V
 ## 📊 Dashboard Screenshots
 
 ### Security Events Overview
-> 13 total alerts detected — kali-attacker activity visible in real time
+![Dashboard](screenshots/dashboard-overview.png)
 
-### Agents Panel
-> kali-attacker — Active ✅ — Kali GNU/Linux 2025.4 — v4.7.5
+### Agents Connected
+![Agents](screenshots/agents-connected.png)
 
-### MITRE ATT&CK Mapping
-> T1078 Valid Accounts technique mapped and visualized
+### MITRE ATT&CK Detection
+![MITRE](screenshots/mitre-attack.png)
 
-### Security Alerts Table
-> Real-time alerts with timestamps, agent names, tactics, and rule IDs
+### Security Alerts
+![Alerts1](screenshots/security-alerts01.png)
+![Alerts2](screenshots/security-alerts02.png)
+
+### Hydra Attack Simulation
+![Hydra](screenshots/hydra-attack.jpeg)
 
 ---
 
