@@ -15,7 +15,7 @@ This project involves setting up a complete SOC environment from scratch, connec
 **Key Achievement:** Successfully detected MITRE ATT&CK technique **T1078 (Valid Accounts)** — covering Defense Evasion, Persistence, Privilege Escalation, and Initial Access tactics — in real time.
 
 - Architecture
-
+```
 Host Machine (Windows 11)
         │
         └── Oracle VirtualBox
@@ -30,7 +30,7 @@ Host Machine (Windows 11)
 
 
 Tools & Technologies
-
+```
                Tool              |              Purpose              
  --------------------------------|----------------------------------------------
   **Wazuh 4.7.5**                | SIEM — Log collection, correlation, alerting 
