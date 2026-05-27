@@ -31,6 +31,7 @@ Host Machine (Windows 11)
 
 Tools & Technologies
 ```
+```
                Tool              |              Purpose              
  --------------------------------|----------------------------------------------
   **Wazuh 4.7.5**                | SIEM — Log collection, correlation, alerting 
@@ -40,7 +41,7 @@ Tools & Technologies
   **Hydra**                      | SSH brute-force simulation 
   **MITRE ATT&CK**               | Threat intelligence framework 
 
-
+```
 - Lab Setup
 
 $ Prerequisites
