@@ -1,4 +1,4 @@
-- Home SOC Lab — Wazuh SIEM
+- Home SOC Lab - Wazuh SIEM
 
 ![Status](https://img.shields.io/badge/Status-Active-2dd4bf?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-VirtualBox-f4a261?style=flat-square)
@@ -12,7 +12,7 @@
 
 This project involves setting up a complete SOC environment from scratch, connecting a Kali Linux attack machine as a monitored agent, and generating real security alerts using offensive tools like Hydra. All events are monitored and visualized through the Wazuh dashboard.
 
-**Key Achievement:** Successfully detected MITRE ATT&CK technique **T1078 (Valid Accounts)** — covering Defense Evasion, Persistence, Privilege Escalation, and Initial Access tactics — in real time.
+**Key Achievement:** Successfully detected MITRE ATT&CK technique **T1078 (Valid Accounts)**, covering Defense Evasion, Persistence, Privilege Escalation, and Initial Access tactics, in real time.
 
 - Architecture
 ```
@@ -99,7 +99,7 @@ $ Alerts Generated
 | Wazuh agent started               | Agent connectivity            | 3     |         —       |
 
 $ MITRE ATT&CK Coverage
-` **T1078** — Valid Accounts
+` **T1078** - Valid Accounts
   ` Defense Evasion
   ` Persistence
   ` Privilege Escalation
@@ -150,7 +150,7 @@ home-soc-lab/
 - Key Learnings
 
 - Deploying and configuring enterprise-grade SIEM from scratch
-- Understanding Wazuh architecture — Indexer, Manager, Dashboard
+- Understanding Wazuh architecture, Indexer, Manager, Dashboard
 - Mapping real attacks to MITRE ATT&CK framework
 - Log correlation and alert triage in a SOC environment
 - Network segmentation using Host-Only adapters in VirtualBox
